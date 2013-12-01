@@ -27,8 +27,6 @@ from unittest import TestCase
 
 from nose import SkipTest
 
-from IPython.testing.tools import mute_warn
-
 from IPConfigurable.loader import (
     Config,
     LazyConfigValue,
