@@ -1,6 +1,6 @@
 # encoding: utf-8
 """
-Tests for ipconfigurable.traitlets.
+Tests for IPConfigurable.traitlets.
 
 Authors:
 
@@ -28,13 +28,13 @@ from unittest import TestCase
 import nose.tools as nt
 from nose import SkipTest
 
-from ipconfigurable.traitlets import (
+from IPConfigurable.traitlets import (
     HasTraits, MetaHasTraits, TraitType, Any, CBytes, Dict,
     Int, Long, Integer, Float, Complex, Bytes, Unicode, TraitError,
     Undefined, Type, This, Instance, TCPAddress, List, Tuple,
     ObjectName, DottedObjectName, CRegExp
 )
-from ipconfigurable import py3compat
+from IPConfigurable import py3compat
 from IPython.testing.decorators import skipif
 
 #-----------------------------------------------------------------------------

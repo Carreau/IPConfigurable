@@ -1,6 +1,6 @@
 # encoding: utf-8
 """
-Tests for ipconfigurable.configurable
+Tests for IPConfigurable.configurable
 
 Authors:
 
@@ -21,17 +21,17 @@ Authors:
 
 from unittest import TestCase
 
-from ipconfigurable.configurable import (
+from IPConfigurable.configurable import (
     Configurable, 
     SingletonConfigurable
 )
 
-from ipconfigurable.traitlets import (
+from IPConfigurable.traitlets import (
     Integer, Float, Unicode, List, Dict, Set,
 )
 
-from ipconfigurable.loader import Config
-from ipconfigurable.py3compat import PY3
+from IPConfigurable.loader import Config
+from IPConfigurable.py3compat import PY3
 
 #-----------------------------------------------------------------------------
 # Test cases
