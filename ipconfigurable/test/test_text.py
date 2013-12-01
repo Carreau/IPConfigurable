@@ -1,5 +1,5 @@
 # encoding: utf-8
-"""Tests for IPConfigurable.text"""
+"""Tests for ipconfigurable.text"""
 from __future__ import print_function
 
 #-----------------------------------------------------------------------------
@@ -19,7 +19,7 @@ import random
 
 import nose.tools as nt
 
-from IPConfigurable import text
+from ipconfigurable import text
 
 #-----------------------------------------------------------------------------
 # Globals

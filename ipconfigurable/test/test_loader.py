@@ -1,6 +1,6 @@
 # encoding: utf-8
 """
-Tests for IPConfigurable.loader
+Tests for ipconfigurable.loader
 
 Authors:
 
@@ -29,7 +29,7 @@ from nose import SkipTest
 
 from IPython.testing.tools import mute_warn
 
-from IPConfigurable.loader import (
+from ipconfigurable.loader import (
     Config,
     LazyConfigValue,
     ConfigError,

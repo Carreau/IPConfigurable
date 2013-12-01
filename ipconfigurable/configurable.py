@@ -54,7 +54,7 @@ class MultipleInstanceError(ConfigurableError):
 class Configurable(HasTraits):
 
     config = Instance(Config, (), {})
-    parent = Instance('IPConfigurable.configurable.Configurable')
+    parent = Instance('ipconfigurable.configurable.Configurable')
     created = None
 
     def __init__(self, **kwargs):
